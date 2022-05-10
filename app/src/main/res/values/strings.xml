@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">Nowa gra</string>
+    <string name="main_title">Sudoku</string>
+    <string name="easy">Łatwy</string>
+    <string name="medium">Średni</string>
+    <string name="hard">Trudny</string>
+    <string name="expert">Ekspert</string>
+    <string name="impossible">Niemożliwy</string>
+    <string name="loading">Ładowanie</string>
+    <string name="winning_message">Gratulacje!\nŁamigłówka została rozwiązana</string>
+    <string name="back_to_menu">Wróć do menu</string>
+    <string name="menu">Menu</string>
+    <string name="pencil">Ołówek</string>
+    <string name="mistakes">Błędy: </string>
+    <string name="time">Czas: </string>
+</resources>

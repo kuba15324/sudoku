@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="launcherBackground">#FF3570A3</color>
+    <color name="launcherForeground">#FFF8FFFF</color>
+
+    <color name="background">#FF264464</color>
+    <color name="backgroundFieldColor">#FF303030</color>
+    <color name="lightBackgroundFieldColor">#FFBBAA77</color>
+    <color name="invalidBackgroundFieldColor">#FFDE6A84</color>
+    <color name="selectedBackgroundFieldColor">#FF505050</color>
+    <color name="disabledBackgroundFieldColor">#33505070</color>
+    <color name="inputNumberColor">#FF0070A0</color>
+    <color name="numberColor">#FFC0C0C0</color>
+    <color name="buttonTextColor">#FFF8FFFF</color>
+    <color name="buttonBackground">#FF3570A3</color>
+    <color name="buttonPressedBackground">#FF0070A0</color>
+    <color name="buttonFocusedBackground">#FF0070A0</color>
+</resources>

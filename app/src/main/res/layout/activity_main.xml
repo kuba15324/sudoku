@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/main_title"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/menuLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:divider="@drawable/main_buttons_divider"
+        android:dividerPadding="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="middle|beginning|end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/easy"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_button"
+            android:fontFamily="casual"
+            android:onClick="newEasyGame"
+            android:text="@string/easy"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_button"
+            android:fontFamily="casual"
+            android:onClick="newMediumGame"
+            android:text="@string/medium"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_button"
+            android:fontFamily="casual"
+            android:onClick="newHardGame"
+            android:text="@string/hard"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/expert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_button"
+            android:fontFamily="casual"
+            android:onClick="newExpertGame"
+            android:text="@string/expert"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/impossible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_button"
+            android:fontFamily="casual"
+            android:onClick="newImpossibleGame"
+            android:text="@string/impossible"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
